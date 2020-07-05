@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
+
+body {
+    display: block;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+/* header{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+} */
+
+.banner1 {
+    width: 100vw;
+    height: 816px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background:  no-repeat center center;
+    background-image: url(image/banner-1-1920.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 0 auto;
+    z-index: -10;
+}
+
+/* img.banner1{
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    z-index: -10;
+    object-fit: cover;
+    width: 100vw;
+    height: 816px;
+} */
+
+header{
+    width: 100vw;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    margin: 0 auto;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+
+.navbar{
+    /* -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999; */
+    box-shadow: 0px 4px 4px -4px rgba(0,0,0,0.6);
+    /* height: 70px; */
+}
+.navword{
+    font-family: 'Noto Sans TC';
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #13395a !important;
+}
+
+.group-27{
+    position: absolute;
+    top: 23px;
+    left: 10%;
+}
+
+.headerinnerblock {
+    height: 70px;
+    width: 293px;
+    position: absolute;
+    right: 10%;
+}
+
+.How-it-Works {
+    width: 101px;
+    height: 24px;
+    position: absolute;
+    top: 23px;
+    left: 0;
+}
+
+.FAQ {
+    width: 31px;
+    height: 24px;
+    position: absolute;
+    top: 23px;
+    right: 30%;
+}
+
+.Contact-us {
+    width: 81px;
+    height: 24px;
+    position: absolute;
+    top: 23px;
+    right: 10%;
+}
+
+.Rectangle0{
+    width: 100vw;
+    height: 746px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.A-new-dating-bot-whi {
+    width: 593px;
+    /* height: 145px; */
+    font-family: 'Yeseva One';
+    font-size: 28px;
+    color: #171c5d;
+    position: absolute;
+    top: 321px;
+    left: 140px;
+}
+
+.A-new-dating-bot-whi2 {
+    font-family: 'Yeseva One';
+    font-size: 48px;
+    color: #171c5d;
+}
+
+.button-joinforfree {
+    width: 156px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #fc4861;
+    position: absolute;
+    top: 514px;
+    left: 140px;
+    outline: none !important;
+    border: none;
+    cursor: pointer;
+}
+
+.joinforfree {
+    width: 124px;
+    height: 29px;
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.Rectangle2{
+    width: 100vw;
+    height: 120px;
+    /* position: relative; */
+    margin: 0 auto;
+}
+
+.Rectangle3{
+    position: relative;
+    width: 100vw;
+    height: 385px;
+    margin: 0 auto;
+}
+
+.pic1{
+    position: absolute;
+    left: 140px;
+    object-fit: contain;
+}
+
+.Female-Focused {
+    width: 255px;
+    /* line-height: 37px; */
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    color: #0e1889;
+    position: absolute;
+    top: 90px;
+    left: 800px;
+}
+
+.Female-Focused2{
+    width: 450px;
+    /* line-height: 1; */
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    color: #0e1889;
+    position: absolute;
+    top: 151px;
+    left: 800px;
+}
+
+.Rectangle4{
+    position: relative;
+    width: 100vw;
+    height: 349px;
+    margin: 0 auto;
+}
+
+.Rectangle4box{
+    width:  468px;
+    height: 350px;
+    position: absolute;
+    right: 172px;
+    /* margin: 0px; */
+}
+
+.Gentlemanly-Manner {
+    /* height: 37px; */
+    line-height: 37px;
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    color: #0e1889;
+    position: absolute;
+    top: 84px;
+    left: 140px;
+}
+
+.Gentlemanly-Manner2 {
+    width: 450px;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    color: #0e1889;
+    position: absolute;
+    top: 145px;
+    left: 140px;
+}
+
+.ribbon {
+    /* width: 468px;
+    height: 255px; */
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+}
+
+.pic2 {
+    /* width: 373px;
+    height: 269px; */
+    object-fit: cover;
+    position: absolute;
+    top: 79.3px;
+    right: 0px;
+}
+
+.Rectangle5{
+    position: relative;
+    width: 100vw;
+    height: 973px;
+    /* background-image: url(image/rectangle.png); */
+    /*background: center;
+    background-size: cover; */
+    margin: 0 auto;
+}
+
+.Rectangle5background{
+    position: absolute;
+    height: 973px;
+    width: 100vw;
+    /* object-fit: fill; */
+    background-image: url(image/rectangle-1920.png);
+    background-size: cover;
+    margin: 0 auto;
+    z-index: -10;
+}
+
+.How-it-Works2 {
+    width: 351px;
+    height: 56px;
+    font-family: 'Yeseva One';
+    font-size: 48px;
+    color: #0e1889;
+    position: absolute;
+    top: 200px;
+    left: 545px;
+
+}
+
+.box1{
+    width: 340px;
+    height: 437px;
+    position: absolute;
+    top: 336px;
+    left: 154px;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) ;
+}
+
+.icon_initiate {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 46px;
+    left: 119px;
+}
+
+.Ladies-initiate-date {
+    width: 260px;
+    height: 66px;
+    font-family: 'Yeseva One';
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.Women-select-the-res {
+    width: 260px;
+    height: 72px;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 260px;
+    left: 40px;
+}
+
+.box2{
+    width: 340px;
+    height: 437px;
+    position: absolute;
+    top: 336px;
+    left: 550px;
+}
+
+.box2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) ;
+}
+
+.icon_match {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 56px;
+    left: 120px;
+}
+
+.It-is-a-match {
+    width: 260px;
+    height: 33px;
+    font-family: 'Yeseva One';
+    font-size: 28px;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+
+.You-will-get-a-match {
+    width: 260px;
+    height: 144px;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 237px;
+    left: 40px;
+}
+
+.box3{
+    width: 340px;
+    height: 437px;
+    position: absolute;
+    top: 336px;
+    left: 946px;
+}
+
+.box3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) ;
+}
+
+.icon_date {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 46px;
+    left: 120px;
+}
+
+.Enjoy-your-date {
+    width: 260px;
+    height: 33px;
+    font-family: 'Yeseva One';
+    font-size: 28px;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+
+.Show-up-at-the-resta {
+    width: 260px;
+    height: 96px;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #0e1889;
+    position: absolute;
+    top: 227px;
+    left: 40px;
+}
+
+.Rectangle7 {
+    width: 100vw;
+    height: 672px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+}
+
+.priscilla {
+    width: 528px;
+    height: 352px;
+    object-fit: contain;
+    position: absolute;
+    top: 154px;
+    left: 140px;
+}
+
+.Rectangle7box{
+    position: absolute;
+    width: 460px;
+    height: 347px;
+    left: 768px;
+    top: 160px;
+    margin-right: 0;
+}
+
+.Getting-bored-with-t {
+    width: 460px;
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: normal;
+    color: #0e1889;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.I-spent-so-much-tim {
+    /* width: 460px; */
+    /* height: 168px; */
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    /* font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal; */
+    color: #0e1889;
+    position: absolute;
+    top: 98px;
+    left: 0px;
+}
+
+.button-getstarted1 {
+    width: 147px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #fc4861;
+    position: absolute;
+    top: 298px;
+    left: 0px;
+    outline: none !important;
+    border: none;
+    cursor: pointer
+}
+
+.Get-Started1 {
+    width: 115px;
+    height: 29px;
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+        
+}
+
+.Rectangle8{
+    position: relative;
+    width: 100vw;
+    /* height: 850px; */
+    margin: 0 auto;
+}
+
+.FAQ2{
+    height: 56px;
+    font-family: 'Yeseva One';
+    font-size: 48px;
+    color: #0e1889;
+    /* left: 666px; */
+    /* position: absolute; */
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 56px;
+    
+}
+
+div.faqbox{
+    /* position: absolute; */
+    /* top: 112px;
+    left: 17%; */
+    margin: 0px 10vw;
+}
+
+.title{
+    /* width: 1000px; */
+    position: relative;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 1.6;
+    color: #0e1889;
+    /* margin-right: 10%; */
+    margin-top: 32px;
+}
+
+.titlep{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+/* .title:hover{
+    color: #0e1889;
+} */
+
+/* .panel-heading .title:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f068";
+    font-weight: 900;
+    float: right;
+    top: 10%;
+}
+
+.panel-heading .title.collapsed:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f067";
+    font-weight: 900;
+    float: right;
+    top: 10%;
+} */
+
+[aria-expanded="false"] .menu__icon--open {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    /* margin-left: 10%; */
+}
+[aria-expanded="false"] .menu__icon--close {
+    display: none;
+}
+[aria-expanded="true"] .menu__icon--open {
+    display: none;
+}
+[aria-expanded="true"] .menu__icon--close {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+    /* margin-left: 10%; */
+}
+
+.content{
+    /* width: 1000px; */
+    font-family: 'Noto Sans TC';
+    font-size: 22px;
+    color: rgba(14, 24, 137, 0.65);
+    margin-bottom: 16px;
+}
+
+.panel3{
+    margin-bottom: 160px;
+}
+
+.Rectangle9{
+    position: relative;
+    width: 100vw;
+    height: 390px;
+    background-color: rgba(249, 220, 215, 0.5);
+    margin: 0 auto;
+}
+
+.Rectangle10{
+    position: absolute;
+    width: 100vw;
+    height: 144px;
+    background-color: rgba(254, 195, 198, 0.5);
+    bottom: 0px;
+    z-index: -10;
+}
+
+.pic4{
+    position: absolute;
+    top: 73px;
+    left: 24px;
+}
+
+.pic5{
+    position: absolute;
+    top: 73px;
+    right: 24px;
+}
+
+.Rectangle11{
+    width: 960px;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    /* position: absolute;
+    top: 84px;
+    right: 240px; */
+    position: inherit;
+    margin: auto;
+    top: 84px;
+}
+
+.Turn-your-boring-lif {
+    width: 550px;
+    height: 74px;
+    font-family: 'Yeseva One';
+    font-size: 32px;
+    line-height: 1;
+    color: #0e1889;
+    position: absolute;
+    left: 90px;
+    top: 56px;
+}
+
+.Lets-get-started-to {
+    height: 24px;
+    font-family: 'Noto Sans TC';
+    font-size: 16px;
+    color: #0e1889;
+    position: absolute;
+    top: 146px;
+    left: 90px;
+}
+
+.button-signupnow {
+    width: 154px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #fc4861;
+    position: absolute;
+    top: 86px;
+    left: 716px;
+    outline: none !important;
+    border: none;
+    cursor: pointer;
+}
+
+.signupnow {
+    width: 122px;
+    height: 29px;
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.footer1 {
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    background-color: #fcedeb;
+    margin: 0 auto;
+}
+
+.right {
+    /* width: 249px; */
+    height: 20px;
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(14, 24, 137, 0.85);
+    /* position: absolute;
+    top: 40px;
+    left: 140px; */
+    position: absolute;
+    top: 40px;
+    left: 5vw;
+    margin-bottom: 0px;
+}
+
+.footerinnerblock{
+    width: 319px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    /* top: 40px; */
+    right: 5vw;
+}
+
+.termsofuse {
+    height: 20px;
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    color: rgba(14, 24, 137, 0.85);
+    position: absolute;
+    top: 40px;
+    /* left: 981px; */
+    left: 0px;
+}
+
+.Privacy-Policy {
+    height: 20px;
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    color: rgba(14, 24, 137, 0.85);
+    position: absolute;
+    top: 40px;
+    /*left: 1107px; */
+    left: 126px;
+}
+
+.Facebook {
+    height: 20px;
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    color: rgba(14, 24, 137, 0.85);
+    position: absolute;
+    top: 40px;
+    /*left: 1237px; */
+    left:256px;
+}
+
+.button-joinforfree:hover{
+    position: absolute;
+    top: 510px;
+}
+.button-getstarted1:hover{
+    position: absolute;
+    top: 294px;
+}
+.button-signupnow:hover{
+    position: absolute;
+    top: 82px;
+}
+
+@media screen and (min-width: 1440px) {
+    .Rectangle0{
+        width: 1440px; 
+    }
+
+    header{
+        /* width: 1440px; */
+        width: 100vw;
+    }
+
+    .Rectangle2{
+        width: 1440px;
+    }
+
+    .Rectangle3{
+        width: 1440px;
+    }
+    
+    .Rectangle4{
+        width: 1440px;
+    }
+
+    .Rectangle5{
+        width: 1440px;
+    }
+
+    .Rectangle7{
+        width: 1440px;
+    }
+
+    .Rectangle8{
+        width: 1440px;
+    }
+
+    .Rectangle9{
+        width: 1440px;
+    }
+
+    .Rectangle10{
+        width: 1440px;
+    }
+
+    /* .footer1{
+        width: 1440px;
+    } */
+}
+
+@media screen and (max-width: 1300px){
+    .Rectangle3{
+        height: 710px;
+    }
+
+    .pic1{
+        display: block;
+        margin: auto;
+        position: inherit;
+        left: auto;
+    }
+
+    .Female-Focused{
+        display: block;
+        /* top: 505px; */
+        position: inherit;
+        margin: 20px auto;
+        left: auto;
+        top: auto;
+    }
+
+    .Female-Focused2{
+        display: block;
+        /* top: 566px; */
+        position: inherit;
+        margin: 10px auto;
+        left: auto;
+        top: auto;
+    }
+
+    .Rectangle2#section2{
+        height: 0px;
+    }
+
+    .Rectangle4{
+        height: 600px;
+    }
+
+    .Rectangle4box{
+        position: inherit;
+        margin: 0px auto;
+        right: auto;
+        top: auto;
+    }
+
+    .Gentlemanly-Manner{
+        display: block;
+        position: inherit;
+        margin: 30px auto;
+        margin-top: 70px;
+        left: auto;
+        top: auto;
+        text-align: center;
+    }
+
+    .Gentlemanly-Manner2{
+        display: block;
+        position: inherit;
+        margin: 10px auto;
+        left: auto;
+        top: auto;
+    }
+
+    .Rectangle2#section3{
+        height: 50px;
+    }
+
+    .Rectangle5{
+        height: 1320px;
+        object-fit: scale-down;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .How-it-Works2{
+        display: block;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .box1{
+        display: inline-block;
+        position: inherit;
+        left: 0;
+    }
+
+    .box2{
+        display: inline-block;
+        position: inherit;
+        left: 0;
+    }
+
+    .box3{
+        display: block;
+        position: inherit;
+        margin: 0 auto;
+        margin-top: 20px;
+        left: auto;
+    }
+    .Rectangle5bottomcolor{
+        position: absolute;
+        bottom: 0px;
+        height: 347px;
+        width: inherit;
+        background-color: rgba(249, 220, 215, 0.5);
+        z-index: -50;
+    }
+
+    /* .Rectangle5bottomcolor{
+        height:292px;
+        background-image: url(image/rectangle.png);
+        background-size: ;
+    } */
+
+    .Rectangle7{
+        /* height: 856px; */
+        height: 916px;
+    }
+
+    .priscilla{
+        display: block;
+        margin: auto;
+        position: inherit;
+        left: auto;
+        top: 100px;
+    }
+
+    .Rectangle7box{
+        position: inherit;
+        margin: 0px auto;
+        margin-top: 50px;
+        left: auto;
+        top: 100px;
+        /* bottom: 0px; */
+    }
+
+    .button-getstarted1{
+        display: block;
+        position: inherit;
+        margin-top: 10px;
+        /* margin: 0px auto; */
+        /* left: 0px; */
+    }
+
+    
+
+    .Rectangle9{
+        height: 408px;
+
+    }
+
+    .Rectangle10{
+        display: none;
+    }
+
+    .Rectangle9 img{
+        display: none;
+    }
+
+    .Rectangle11{
+        width: calc(100vw - 32px);
+        height: 288px;
+    }
+
+    .Turn-your-boring-lif{
+        text-align: center;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        top: 56px;
+    }
+
+    .Lets-get-started-to{
+        text-align: center;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        top: 65px;
+    }
+
+    .button-signupnow{
+        display: block;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        top: 100px;
+    }
+
+    .button-signupnow:hover{
+        display: block;
+        position: inherit;
+        top: 96px;
+        margin: 0px auto;
+        left: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .banner1{
+        background-image: url(image/group-30.png);
+        /* background-size: fill; */
+        /* background-position: center; */
+        width: 100%;
+    }
+
+    .A-new-dating-bot-whi{
+        left: 40px;
+    }
+
+    .button-joinforfree{
+        left: 40px;
+    }
+
+    .button-joinforfree:hover{
+        left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .banner1{
+        background-position: right 20%;
+    }
+
+    .How-it-Works2{
+        width: 100vw;
+        font-size: 32px;
+    }
+    .box1{
+        display: block;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .box2{
+        display: block;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .icon_match{
+        top: 46px;
+    }
+
+    .It-is-a-match{
+        top: 170px;
+    }
+
+    .You-will-get-a-match{
+        top: 227px;
+    }
+    .box3{
+        display: block;
+        position: inherit;
+        margin: 0px auto;
+        left: auto;
+        text-align: center;
+    }
+
+    .Rectangle5{
+        height: 1740px;
+    }
+
+    .Rectangle5bottomcolor{
+        position: absolute;
+        bottom: 0px;
+        height: 767px;
+        width: inherit;
+        background-color: rgba(249, 220, 215, 0.5);
+        z-index: -50;
+    }
+
+    .priscilla{
+        top: 10px;
+    }
+
+    .Rectangle0{
+        text-align: center;
+    }
+
+    .A-new-dating-bot-whi{
+        width: auto;
+        font-size: 32px;
+        left: 5%;
+        right: 5%;
+        display: inline-block;
+    }
+
+    .A-new-dating-bot-whi2{
+        font-size: 32px;
+    }
+
+    .button-joinforfree{
+        position: inherit;
+        left: auto;
+    }
+
+    .button-joinforfree:hover{
+        position: inherit;
+        left: auto;
+    }
+
+    .Turn-your-boring-lif{
+        font-size: 28px;
+        width: 95%;
+    }
+
+    .footer1{
+        text-align: center;
+    }
+
+    .right{
+        position: inherit;
+        top: auto;
+        left: auto;
+    }
+
+    .footerinnerblock{
+        position: inherit;
+        margin: 0px auto;
+        right: auto;
+        height: 20px;
+        margin-top: 15px;
+    }
+
+    .termsofuse {
+        top: auto;
+    }
+    
+    .Privacy-Policy {
+        top: auto;
+    }
+    
+    .Facebook {
+        top: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Female-Focused{
+        width: 95vw;
+        text-align: left;
+        font-size: 28px;
+    }
+
+    .Female-Focused2{
+        width: 95vw;
+    }
+
+    .Gentlemanly-Manner{
+        width: 95vw;
+        text-align: left;
+        font-size: 28px;
+    }
+
+    .Gentlemanly-Manner2{
+        width: 95vw;
+    }
+
+    .Rectangle4box{
+        width: 85vw;
+    }
+
+    .Rectangle7box{
+        width: 95vw;
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .Getting-bored-with-t{
+        position: inherit;
+        width: 95vw;
+        top: auto;
+        font-size: 28px;
+    }
+
+    .I-spent-so-much-tim{
+        position: inherit;
+        top: auto;
+    }
+
+    .button-getstarted1{
+        top: auto;
+    }
+
+    .button-getstarted1:hover{
+        top: auto;
+    }
+
+    .Rectangle3{
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Gentlemanly-Manner{
+        margin-top: 0px;
+    }
+    
+    .Lets-get-started-to{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .button-joinforfree{
+        top: 560px;
+    }
+
+    .button-joinforfree:hover{
+        top: 556px;
+    }
+
+    .box1{
+        width: 100vw;
+    }
+
+    .box2{
+        width: 100vw;
+    }
+
+    .box3{
+        width: 100vw;
+    }
+    
+}
